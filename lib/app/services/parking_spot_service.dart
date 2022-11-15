@@ -31,7 +31,6 @@ class ParkingSpotService{
 
 
   Future<dynamic> fetchPostGarage(ParkingSpotModel garage) async {
-
     _response = await http.post(Uri.parse(salvar),body: json.encode(garage.toJson()) ,
       headers: {
         "Accept": "application/json",
