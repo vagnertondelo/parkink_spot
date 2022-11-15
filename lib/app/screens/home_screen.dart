@@ -72,6 +72,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         //   "block": "A",
                         // };
 
+
                         ParkingSpotModel parkingSpot = ParkingSpotModel(
                              "",
                             "11",
